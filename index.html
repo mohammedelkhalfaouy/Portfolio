@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed El Khalfaouy - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+
+  <header class="header">
+    <div class="container header-content">
+      <div class="profile">
+        <img src="profile.jpg" alt="Profile" class="profile-img">
+        <div>
+          <h1 data-lang="name">Mohammed El Khalfaouy</h1>
+          <p data-lang="title">Frontend Developer · Curious Learner</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#projects" data-lang="nav-projects">Projects</a>
+        <a href="#about" data-lang="nav-about">About</a>
+        <a href="https://github.com/mohammedelkhalfaouy" target="_blank" class="btn-outline">GitHub</a>
+        <div class="controls">
+          <button class="lang-btn" id="lang-toggle">
+            <span class="flag-icon">🇬🇧</span>
+            <span id="lang-text">EN</span>
+          </button>
+          <button class="theme-btn" id="theme-toggle">
+            <span id="theme-icon">☀️</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container">
+    <div class="hero-text">
+      <h2 data-lang="hero-title">I build clean and modern web interfaces.</h2>
+      <p data-lang="hero-desc">I craft responsive, minimalistic, and accessible web experiences using HTML, CSS, and JavaScript.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn" data-lang="btn-projects">See Projects</a>
+        <a href="#contact" class="btn-outline" data-lang="btn-contact">Contact</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="photo-frame">
+        <img src="profile.jpg" alt="Profile" class="photo">
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects container">
+    <h3 data-lang="projects-title">Projects</h3>
+    <p class="section-sub" data-lang="projects-sub">Here are my latest works and learning projects.</p>
+    <div class="project-grid">
+      <div class="card">
+        <h4 data-lang="project1-title">Coffee Website</h4>
+        <p data-lang="project1-desc">A clean, responsive landing page for a coffee shop.</p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>Responsive</span>
+        </div>
+        <div class="links">
+          <a href="https://mohammedelkhalfaouy.github.io/Coffee-Website/" target="_blank" data-lang="link-live">Live</a>
+          <a href="https://github.com/mohammedelkhalfaouy/Coffee-Website" target="_blank" data-lang="link-source">Source</a>
+        </div>
+      </div>
+      <div class="card">
+        <h4 data-lang="project2-title">E-Commerce Store</h4>
+        <p data-lang="project2-desc">A JavaScript shopping cart demo with product listing and checkout UI.</p>
+        <div class="tags">
+          <span>JS</span><span>DOM</span><span>UX</span>
+        </div>
+        <div class="links">
+          <a href="https://mohammedelkhalfaouy.github.io/E-Commerce-Store/" target="_blank" data-lang="link-live">Live</a>
+          <a href="https://github.com/mohammedelkhalfaouy/E-Commerce-Store" target="_blank" data-lang="link-source">Source</a>
+        </div>
+      </div>
+      <div class="card">
+        <h4 data-lang="project3-title">Password Generator</h4>
+        <p data-lang="project3-desc">Small utility that generates secure passwords in the browser.</p>
+        <div class="tags">
+          <span>HTML</span><span>JS</span><span>Utility</span>
+        </div>
+        <div class="links">
+          <a href="https://mohammedelkhalfaouy.github.io/Password-Generator/" target="_blank" data-lang="link-live">Live</a>
+          <a href="https://github.com/mohammedelkhalfaouy/Password-Generator" target="_blank" data-lang="link-source">Source</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about container">
+    <h3 data-lang="about-title">About Me</h3>
+    <p data-lang="about-intro">Hi — I'm Mohammed El Khalfaouy, a frontend developer passionate about creating elegant and functional user interfaces. I love turning simple ideas into beautiful and useful projects.</p>
+    <ul>
+      <li data-lang="about-point1">• Passionate about clean code & minimal UI</li>
+      <li data-lang="about-point2">• Strong foundation in HTML, CSS, and JavaScript</li>
+      <li data-lang="about-point3">• Experience building small tools and interactive demos</li>
+      <li data-lang="about-point4">• Constantly learning — currently exploring frameworks</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact container">
+    <h3 data-lang="contact-title">Contact</h3>
+    <p data-lang="contact-desc">Let's connect! Reach me via GitHub or email for collaboration or feedback.</p>
+    <div class="hero-buttons">
+      <a href="https://github.com/mohammedelkhalfaouy" target="_blank" class="btn-outline">GitHub</a>
+      <a href="mailto:mohammedelkhalfaouy00@gmail.com" class="btn" data-lang="btn-email">Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <span data-lang="footer-copy">© 2025 Mohammed El Khalfaouy</span>
+      <span data-lang="footer-built">Built with ❤️ using HTML & CSS</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
