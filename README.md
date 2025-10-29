@@ -45,7 +45,7 @@ All my projects are focused on **simplicity**, **performance**, and **aesthetic 
 
 ## 📫 Contact
 
-- 💌 Email: [elkhalfaouymed@gmail.com](mailto:elkhalfaouymed@gmail.com)
+- 💌 Email: [mohammedelkhalfaouy00@gmail.com](mailto:mohammedelkhalfaouy00@gmail.com)
 - 🧑‍💻 GitHub: [github.com/mohammedelkhalfaouy](https://github.com/mohammedelkhalfaouy)
 - 🌐 Portfolio: [elkhalfaouymed.vercel.app](https://elkhalfaouymed.vercel.app)
 
